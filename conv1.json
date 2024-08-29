@@ -1,0 +1,22 @@
+{
+    "Customer Requirements": {
+        "Car Type": "SUV",
+        "Fuel Type": "Diesel",
+        "Color": "white",
+        "Distance Travelled": null,
+        "Make Year": null,
+        "Transmission Type": "automatic"
+    },
+    "Company Policies": {
+        "Return Policy": "return",
+        "Money Back Guarantee": "guarantee",
+        "Free RC Transfer": "registration",
+        "Free RSA": null
+    },
+    "Customer Objections": {
+        "Refurbishment Quality": "condition",
+        "Car Issues": "car",
+        "Price Issues": "cost",
+        "Customer Experience Issues": "Salesperson"
+    }
+}

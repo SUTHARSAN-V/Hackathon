@@ -1,0 +1,244 @@
+[
+    {
+        "Customer Requirements": {
+            "Car Type": "SUV",
+            "Fuel Type": "Diesel",
+            "Color": "white",
+            "Distance Travelled": null,
+            "Make Year": null,
+            "Transmission Type": "automatic"
+        },
+        "Company Policies": {
+            "Return Policy": "return",
+            "Money Back Guarantee": "guarantee",
+            "Free RC Transfer": "registration",
+            "Free RSA": null
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": "condition",
+            "Car Issues": "car",
+            "Price Issues": "cost",
+            "Customer Experience Issues": "Salesperson"
+        }
+    },
+    {
+        "Customer Requirements": {
+            "Car Type": "sedan",
+            "Fuel Type": null,
+            "Color": null,
+            "Distance Travelled": null,
+            "Make Year": null,
+            "Transmission Type": "manual"
+        },
+        "Company Policies": {
+            "Return Policy": null,
+            "Money Back Guarantee": "guarantee",
+            "Free RC Transfer": null,
+            "Free RSA": "assistance"
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": "condition",
+            "Car Issues": "car",
+            "Price Issues": null,
+            "Customer Experience Issues": "Salesperson"
+        }
+    },
+    {
+        "Customer Requirements": {
+            "Car Type": null,
+            "Fuel Type": "petrol",
+            "Color": "white",
+            "Distance Travelled": null,
+            "Make Year": null,
+            "Transmission Type": null
+        },
+        "Company Policies": {
+            "Return Policy": "refund",
+            "Money Back Guarantee": "guarantee",
+            "Free RC Transfer": "transfer",
+            "Free RSA": null
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": null,
+            "Car Issues": "car",
+            "Price Issues": "cost",
+            "Customer Experience Issues": "Customer"
+        }
+    },
+    {
+        "Customer Requirements": {
+            "Car Type": null,
+            "Fuel Type": null,
+            "Color": "grey",
+            "Distance Travelled": null,
+            "Make Year": null,
+            "Transmission Type": "manual"
+        },
+        "Company Policies": {
+            "Return Policy": null,
+            "Money Back Guarantee": null,
+            "Free RC Transfer": null,
+            "Free RSA": null
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": "condition",
+            "Car Issues": "car",
+            "Price Issues": "price",
+            "Customer Experience Issues": "Salesperson"
+        }
+    },
+    {
+        "Customer Requirements": {
+            "Car Type": null,
+            "Fuel Type": "diesel",
+            "Color": null,
+            "Distance Travelled": null,
+            "Make Year": null,
+            "Transmission Type": "Automatic"
+        },
+        "Company Policies": {
+            "Return Policy": "return",
+            "Money Back Guarantee": null,
+            "Free RC Transfer": "RC",
+            "Free RSA": null
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": "condition",
+            "Car Issues": "car",
+            "Price Issues": "price",
+            "Customer Experience Issues": "Salesperson"
+        }
+    },
+    {
+        "Customer Requirements": {
+            "Car Type": null,
+            "Fuel Type": "Diesel",
+            "Color": null,
+            "Distance Travelled": null,
+            "Make Year": null,
+            "Transmission Type": "manual"
+        },
+        "Company Policies": {
+            "Return Policy": null,
+            "Money Back Guarantee": null,
+            "Free RC Transfer": "transfer",
+            "Free RSA": null
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": "condition",
+            "Car Issues": "car",
+            "Price Issues": "price",
+            "Customer Experience Issues": "Salesperson"
+        }
+    },
+    {
+        "Customer Requirements": {
+            "Car Type": null,
+            "Fuel Type": null,
+            "Color": null,
+            "Distance Travelled": null,
+            "Make Year": null,
+            "Transmission Type": "Auto"
+        },
+        "Company Policies": {
+            "Return Policy": null,
+            "Money Back Guarantee": null,
+            "Free RC Transfer": "transfer",
+            "Free RSA": null
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": "condition",
+            "Car Issues": "car",
+            "Price Issues": "price",
+            "Customer Experience Issues": "Salesperson"
+        }
+    },
+    {
+        "Customer Requirements": {
+            "Car Type": null,
+            "Fuel Type": null,
+            "Color": null,
+            "Distance Travelled": null,
+            "Make Year": null,
+            "Transmission Type": "automatic"
+        },
+        "Company Policies": {
+            "Return Policy": null,
+            "Money Back Guarantee": null,
+            "Free RC Transfer": "transfer",
+            "Free RSA": null
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": null,
+            "Car Issues": "car",
+            "Price Issues": "price",
+            "Customer Experience Issues": "Customer"
+        }
+    },
+    {
+        "Customer Requirements": {
+            "Car Type": "sedan",
+            "Fuel Type": "petrol",
+            "Color": null,
+            "Distance Travelled": null,
+            "Make Year": null,
+            "Transmission Type": null
+        },
+        "Company Policies": {
+            "Return Policy": null,
+            "Money Back Guarantee": null,
+            "Free RC Transfer": "transfer",
+            "Free RSA": null
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": null,
+            "Car Issues": "car",
+            "Price Issues": "price",
+            "Customer Experience Issues": "Salesperson"
+        }
+    },
+    {
+        "Customer Requirements": {
+            "Car Type": null,
+            "Fuel Type": null,
+            "Color": null,
+            "Distance Travelled": null,
+            "Make Year": null,
+            "Transmission Type": "Auto"
+        },
+        "Company Policies": {
+            "Return Policy": null,
+            "Money Back Guarantee": null,
+            "Free RC Transfer": "registration",
+            "Free RSA": null
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": null,
+            "Car Issues": "car",
+            "Price Issues": "price",
+            "Customer Experience Issues": "Customer"
+        }
+    },
+    {
+        "Customer Requirements": {
+            "Car Type": null,
+            "Fuel Type": null,
+            "Color": "color",
+            "Distance Travelled": null,
+            "Make Year": null,
+            "Transmission Type": "auto"
+        },
+        "Company Policies": {
+            "Return Policy": null,
+            "Money Back Guarantee": null,
+            "Free RC Transfer": "RC",
+            "Free RSA": null
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": "condition",
+            "Car Issues": "car",
+            "Price Issues": "price",
+            "Customer Experience Issues": "Salesperson"
+        }
+    }
+]

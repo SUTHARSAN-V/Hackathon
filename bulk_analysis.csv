@@ -1,0 +1,12 @@
+Customer Requirements.Car Type,Customer Requirements.Fuel Type,Customer Requirements.Color,Customer Requirements.Distance Travelled,Customer Requirements.Make Year,Customer Requirements.Transmission Type,Company Policies.Return Policy,Company Policies.Money Back Guarantee,Company Policies.Free RC Transfer,Company Policies.Free RSA,Customer Objections.Refurbishment Quality,Customer Objections.Car Issues,Customer Objections.Price Issues,Customer Objections.Customer Experience Issues
+SUV,Diesel,white,,,automatic,return,guarantee,registration,,condition,car,cost,Salesperson
+sedan,,,,,manual,,guarantee,,assistance,condition,car,,Salesperson
+,petrol,white,,,,refund,guarantee,transfer,,,car,cost,Customer
+,,grey,,,manual,,,,,condition,car,price,Salesperson
+,diesel,,,,Automatic,return,,RC,,condition,car,price,Salesperson
+,Diesel,,,,manual,,,transfer,,condition,car,price,Salesperson
+,,,,,Auto,,,transfer,,condition,car,price,Salesperson
+,,,,,automatic,,,transfer,,,car,price,Customer
+sedan,petrol,,,,,,,transfer,,,car,price,Salesperson
+,,,,,Auto,,,registration,,,car,price,Customer
+,,color,,,auto,,,RC,,condition,car,price,Salesperson

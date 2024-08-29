@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulk Analysis Results</title>
+</head>
+<body>
+    <h1>Bulk Analysis Results</h1>
+    
+    <div id="jsonDisplay">
+        <pre id="jsonContent"></pre>
+        <button id="downloadJsonBtn">Download JSON</button>
+    </div>
+    
+    <hr>
+    
+    <button id="analyzeGraphsBtn">Analyze Graphs</button>
+    
+    <script>
+        // Assuming the JSON data is passed from the backend
+        const jsonData = {{ json_data|tojson }};
+        document.getElementById('jsonContent').textContent = JSON.stringify(jsonData, null, 2);
+        
+        document.getElementById('downloadJsonBtn').addEventListener('click', function () {
+            const blob = new Blob([JSON.stringify(jsonData, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'analysis_result.json';
+            a.click();
+            URL.revokeObjectURL(url);
+        });
+
+        document.getElementById('analyzeGraphsBtn').addEventListener('click', function () {
+            window.location.href = '/analyze-graphs';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulk Analysis Results</title>
+</head>
+<body>
+    <h1>Bulk Analysis Results</h1>
+
+    <h2>Extracted Information</h2>
+    <pre>{{ all_information | tojson(indent=4) }}</pre>
+
+    <h2>Download Combined JSON</h2>
+    <a href="/download/{{ bulk_json_path }}">Download JSON</a>
+
+    <h2>Export Options</h2>
+    <a href="/export/csv/{{ bulk_json_path }}">Export as CSV</a><br>
+    <a href="/export/pdf/{{ bulk_json_path }}">Export as PDF</a>
+
+    <h2>Graph Analysis</h2>
+    <form action="/analyze-graphs" method="POST">
+        <button type="submit">Analyze Graphs</button>
+    </form>
+
+    {% if graph_file %}
+    <h2>Download Graph Analysis</h2>
+    <a href="/download/{{ graph_file }}">Download Graph File</a>
+    {% endif %}
+
+    <a href="/">Go Back</a>
+</body>
+</html>

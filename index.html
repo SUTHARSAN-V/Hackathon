@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Files</title>
+</head>
+<body>
+    <h1>Upload Files for Analysis</h1>
+
+    <h2>Single File Upload</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="single_file">Select a file (TXT or PDF):</label>
+        <input type="file" id="single_file" name="file" required>
+        <button type="submit">Upload and Analyze</button>
+    </form>
+
+    <h2>Bulk Upload</h2>
+    <form action="/bulk-upload" method="post" enctype="multipart/form-data">
+        <label for="files">Select multiple files (TXT or PDF):</label>
+        <input type="file" id="files" name="files" multiple required>
+        <button type="submit">Upload and Analyze</button>
+    </form>
+    
+    <a href="/">Back to Home</a>
+</body>
+</html>
